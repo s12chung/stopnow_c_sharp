@@ -1,0 +1,2 @@
+D:\Visual Studio 2005\Projects\StopNow\StopNow\obj\Release\StopNow.exe
+D:\Visual Studio 2005\Projects\StopNow\StopNow\obj\Release\StopNow.pdb

@@ -1,0 +1,34 @@
+8
+
+dir
+1
+file:///D:/TortoiseSVN/StopNow/obj
+file:///D:/TortoiseSVN
+
+
+
+2007-08-05T04:04:16.000000Z
+1
+Steve
+
+
+svn:special svn:externals svn:needs-lock
+
+StopNow.csproj.FileList.txt
+file
+11
+
+
+
+2007-08-23T17:05:48.953125Z
+e006047fa481886d1c3031a479935688
+2007-08-23T04:18:49.033655Z
+11
+Steve
+
+Release
+dir
+
+Debug
+dir
+

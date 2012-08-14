@@ -1,0 +1,44 @@
+8
+
+dir
+11
+file:///D:/TortoiseSVN/StopNow/bin/Release/StopNow.publish
+file:///D:/TortoiseSVN
+
+
+
+2007-08-23T04:18:49.033655Z
+11
+Steve
+
+
+svn:special svn:externals svn:needs-lock
+
+setup.exe
+file
+
+
+
+
+2007-08-23T03:22:42.846155Z
+ef3ce5d4d6de3101628f3caed2116781
+2007-08-23T04:18:49.033655Z
+11
+Steve
+has-props
+
+StopNow_1_0_0_1
+dir
+
+StopNow.application
+file
+
+
+
+
+2007-08-23T03:22:41.939905Z
+814b5c00b454197358ed0f3e70136d78
+2007-08-23T04:18:49.033655Z
+11
+Steve
+

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="StopNow.exe" version="1.0.0.1" publicKeyToken="5f6130e1a8b78205" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="$this.Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="StopNow" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="StopNow.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site">
+          <IPermission class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Read="USERNAME" />
+          <IPermission class="System.Security.Permissions.FileDialogPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+          <IPermission class="System.Security.Permissions.IsolatedStorageFilePermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Allowed="AssemblyIsolationByUser" UserQuota="9223372036854775807" Expiry="9223372036854775807" Permanent="True" />
+          <IPermission class="System.Security.Permissions.ReflectionPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="ReflectionEmit" />
+          <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="Assertion, Execution, BindingRedirects" />
+          <IPermission class="System.Security.Permissions.UIPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+          <IPermission class="System.Net.DnsPermission, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+          <IPermission class="System.Drawing.Printing.PrintingPermission, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" version="1" Level="DefaultPrinting" />
+          <IPermission class="System.Security.Permissions.MediaPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" version="1" Audio="SafeAudio" Video="SafeVideo" Image="SafeImage" />
+          <IPermission class="System.Security.Permissions.WebBrowserPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" version="1" Level="Safe" />
+        </PermissionSet>
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StopNow.exe" size="401408">
+      <assemblyIdentity name="StopNow" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>E1tkL9+YcwOnCQTVPsaReVAZw5c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="$this.Icon.ico" size="104382">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kwYGTcvGxGgRNhkZGo7wIiEm0+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP\Steve" issuerKeyHash="59fc5ce7f62313bdebe1ef87c683accd5580c2f2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ICAahz0LfbthfpqMctjfXDlERPg=</DigestValue></Reference></SignedInfo><SignatureValue>O6tBKsruy+vQ+XCu+FnPVZmXReb9seyDnDotu/L/BcXhl9kHUMcB/DofUkxxQFNUMTqW13LYkygipmLvBvRltpoyO72jDA8k9adlUsx3xeo8Syl3kGmWKZ2xaW0AJdHRI9pyoXXRWBgKMptkiFdT2m5WNZt+gIW01daNmlWaAuc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wYCxk5Loi3T/+3bHlanIZ8gFycMstEsmxLtRUAFql4rtkP4tQsewlVGs1yv2ciaDX1WiYD1MkHpl0DLlRiuUQuR21FEdHbhZuNVLjiKKGi4SUWgN4d3t9SmKYya9hjGqg0d+ta1D/yk5K8vHvTRvxk8H8LsNrmvIDZS830YAd2s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f84444395cdfd8728c9a7e61bb7d0b3d871a2020" Description="" Url=""><as:assemblyIdentity name="StopNow.exe" version="1.0.0.1" publicKeyToken="5f6130e1a8b78205" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP\Steve</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yHp979GjGnQCUEgREWIaNoU3CB8=</DigestValue></Reference></SignedInfo><SignatureValue>PMlG45n1ATEzbpGki3FWm05dKaw3sHqo1iZzbAQwFrLAsmPlaZw+Jy0NKWDsufMEabJ5YA17Qtf4YTID4PRPEJ7CITCWhn+LQjaA/WCVvSh9Wf77VD9kYB9DxLYkEyOpu1nC8Ag667a5xJRaL+Zh7mZi9GETfNfot4ezEWSNxkg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wYCxk5Loi3T/+3bHlanIZ8gFycMstEsmxLtRUAFql4rtkP4tQsewlVGs1yv2ciaDX1WiYD1MkHpl0DLlRiuUQuR21FEdHbhZuNVLjiKKGi4SUWgN4d3t9SmKYya9hjGqg0d+ta1D/yk5K8vHvTRvxk8H8LsNrmvIDZS830YAd2s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCAS6gAwIBAgIQT6oW1H3KgJZAMWnSs++wJjAJBgUrDgMCHQUAMCMxITAfBgNVBAMeGABMAEEAUABUAE8AUABcAFMAdABlAHYAZTAeFw0wNzA4MjMwMzIyMjdaFw0wODA4MjIwOTIyMjdaMCMxITAfBgNVBAMeGABMAEEAUABUAE8AUABcAFMAdABlAHYAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwYCxk5Loi3T/+3bHlanIZ8gFycMstEsmxLtRUAFql4rtkP4tQsewlVGs1yv2ciaDX1WiYD1MkHpl0DLlRiuUQuR21FEdHbhZuNVLjiKKGi4SUWgN4d3t9SmKYya9hjGqg0d+ta1D/yk5K8vHvTRvxk8H8LsNrmvIDZS830YAd2sCAwEAATAJBgUrDgMCHQUAA4GBAAmAtdtx5ozAsvOJQncq6DE79CfE8x3l8ntxAd7vkDDkhgsJL802vLfQQ+O/7rhjLuZ1ijfwyPCOX70k/vF4suxZGYJaQRmXcLZMj9VN86B/Xe0nK7txdXROo0M/nCnAp/7b6IKgW+eNU0beCu+d1fO2K5bUdfrsRMnvLv4GuEh9</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

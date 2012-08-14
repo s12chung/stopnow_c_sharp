@@ -1,0 +1,106 @@
+8
+
+dir
+1
+file:///D:/TortoiseSVN/StopNow/bin/Debug
+file:///D:/TortoiseSVN
+
+
+
+2007-08-05T04:04:16.000000Z
+1
+Steve
+
+
+svn:special svn:externals svn:needs-lock
+
+StopNow.vshost.application
+file
+11
+
+
+
+2007-08-23T04:15:33.189905Z
+26f1dac5aef2636a86ed9058b3903903
+2007-08-23T04:18:49.033655Z
+11
+Steve
+
+StopNow.vshost.exe.manifest
+file
+11
+
+
+
+2007-08-23T04:15:32.955530Z
+63e8f3fbc53c9a527927969918c39ba5
+2007-08-23T04:18:49.033655Z
+11
+Steve
+
+StopNow.exe
+file
+11
+
+
+
+2007-08-23T04:15:32.486780Z
+378bcf9675915457a01d8b4f943989bb
+2007-08-23T04:18:49.033655Z
+11
+Steve
+has-props
+
+StopNow.application
+file
+11
+
+
+
+2007-08-23T04:15:33.189905Z
+26f1dac5aef2636a86ed9058b3903903
+2007-08-23T04:18:49.033655Z
+11
+Steve
+
+StopNow.pdb
+file
+11
+
+
+
+2007-08-23T04:15:32.455530Z
+f014bc42cff2f0b5ead6cb73e189eb31
+2007-08-23T04:18:49.033655Z
+11
+Steve
+has-props
+
+StopNow.vshost.exe
+file
+
+
+
+
+2005-09-23T10:56:34.000000Z
+d9086aab959707dd1a8643f3df70db9d
+2007-08-05T04:04:16.000000Z
+1
+Steve
+has-props
+
+StopNow.exe.manifest
+file
+11
+
+
+
+2007-08-23T04:15:32.955530Z
+63e8f3fbc53c9a527927969918c39ba5
+2007-08-23T04:18:49.033655Z
+11
+Steve
+
+StopNow.publish
+dir
+

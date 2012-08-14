@@ -1,0 +1,88 @@
+8
+
+dir
+1
+file:///D:/TortoiseSVN/StopNow/Properties
+file:///D:/TortoiseSVN
+
+
+
+2007-08-05T04:04:16.000000Z
+1
+Steve
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+4
+
+
+
+2007-08-09T01:22:43.859375Z
+625de0d42f362385659ab9ab3f1b9858
+2007-08-09T02:53:30.250000Z
+4
+Steve
+
+Settings.settings
+file
+
+
+
+
+2007-08-01T01:07:39.109375Z
+8c0f00d7d9b0046695a0255f1b11b061
+2007-08-05T04:04:16.000000Z
+1
+Steve
+
+Settings.Designer.cs
+file
+10
+
+
+
+2007-08-16T18:54:25.328125Z
+947b4640ba4fd04ee1c935ea7b36b4cb
+2007-08-23T00:17:10.377405Z
+10
+Steve
+
+app.manifest
+file
+11
+
+
+
+2007-08-23T03:58:43.314905Z
+d4bfcca51ec8f67f3568a592738ee0d6
+2007-08-23T04:18:49.033655Z
+11
+Steve
+
+Resources.resx
+file
+
+
+
+
+2007-08-01T01:07:39.078125Z
+0cd8c971317d19bbed44757809bcb92b
+2007-08-05T04:04:16.000000Z
+1
+Steve
+
+Resources.Designer.cs
+file
+10
+
+
+
+2007-08-16T18:54:24.546875Z
+3d08d5126beae792a95ee5ae33c9baac
+2007-08-23T00:17:10.377405Z
+10
+Steve
+
